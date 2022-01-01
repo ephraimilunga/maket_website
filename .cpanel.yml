@@ -1,0 +1,13 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/maketcoz/public_html/
+    - /bin/cp -R css $DEPLOYPATH
+    - /bin/cp -R favicons $DEPLOYPATH
+    - /bin/cp -R img $DEPLOYPATH
+    - /bin/cp -R js $DEPLOYPATH
+    - /bin/cp -R faq.html $DEPLOYPATH
+    - /bin/cp -R index.html $DEPLOYPATH
+    - /bin/cp -R privacy.html $DEPLOYPATH
+    - /bin/cp -R robots.text $DEPLOYPATH
+    - /bin/cp -R terms.html $DEPLOYPATH
